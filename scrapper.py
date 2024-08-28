@@ -118,5 +118,3 @@ def extract_passport_info(image):
 
     except Exception as e:
         return json.dumps({"error": str(e)}, indent=4)
-
-# print(extract_passport_info(image=Image.open("naseem.jpg")))
